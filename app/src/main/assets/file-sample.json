@@ -1,0 +1,316 @@
+{
+  "meta": {
+    "url": "https://transcription-asr.s3-ap-southeast-1.amazonaws.com/GCjWdk8GZNmL04DS9hfzYM2dm2EtcOG3yMN63go6.mpga"
+  },
+  "sections": [
+    {
+      "meta": {
+        "speaker": "",
+        "completed": true,
+        "notes": "Note note notes"
+      },
+      "words": [
+        {
+          "start_time": 0,
+          "end_time": 0.6,
+          "text": "بترجع",
+          "confidence": 0.9,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 0.6,
+          "end_time": 1.3,
+          "text": "أصولنا",
+          "confidence": 0.2,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 1.1,
+          "end_time": 1.3,
+          "text": "من",
+          "confidence": 0.1,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 1.4,
+          "end_time": 2.5,
+          "text": "شكوى",
+          "confidence": 0.4,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 2.6,
+          "end_time": 3.2,
+          "text": "اعدو",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 3.3,
+          "end_time": 4.0,
+          "text": "ولكن",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 4.1,
+          "end_time": 4.3,
+          "text": "انا",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 4.4,
+          "end_time": 4.6,
+          "text": "من",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 4.4,
+          "end_time": 4.7,
+          "text": "مواليد",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 4.8,
+          "end_time": 5.8,
+          "text": "السعودية",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 5.9,
+          "end_time": 6.0,
+          "text": "و",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 6.1,
+          "end_time": 6.4,
+          "text": "أبناء",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 6.5,
+          "end_time": 7.3,
+          "text": "السعودية",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 7.4,
+          "end_time": 8.4,
+          "text": "فأنا",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 8.5,
+          "end_time": 8.8,
+          "text": "من",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 8.9,
+          "end_time": 9.8,
+          "text": "اليمن",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 9.9,
+          "end_time": 10.0,
+          "text": "و",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 10.1,
+          "end_time": 10.2,
+          "text": "من",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 10.3,
+          "end_time": 10.6,
+          "text": "مواليد",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 10.7,
+          "end_time": 11.6,
+          "text": "السعودية",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 11.7,
+          "end_time": 11.8,
+          "text": "هذا",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 11.9,
+          "end_time": 13.0,
+          "text": "بلدي",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 13.1,
+          "end_time": 13.2,
+          "text": "وهذا",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 13.2,
+          "end_time": 14.4,
+          "text": "بلدي",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 14.5,
+          "end_time": 15.3,
+          "text": "و",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 15.4,
+          "end_time": 15.5,
+          "text": "كل",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 15.6,
+          "end_time": 16.1,
+          "text": "الوطن",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 15.7,
+          "end_time": 16.2,
+          "text": "العربي",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 16.3,
+          "end_time": 16.4,
+          "text": "هو",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        },
+        {
+          "start_time": 16.5,
+          "end_time": 18,
+          "text": "بلدي",
+          "confidence": 0.8,
+          "strikethrough": false,
+          "highlight": false,
+          "bold": false,
+          "color": "#f6e6b4"
+        }
+      ]
+    }
+  ]
+}

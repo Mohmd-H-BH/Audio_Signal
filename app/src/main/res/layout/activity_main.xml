@@ -1,0 +1,108 @@
+<?xml version="1.0" encoding="utf-8"?>
+<LinearLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    android:layout_gravity="center"
+    android:background="@color/md_green_600"
+    android:orientation="vertical"
+    tools:context=".ui.MainActivity">
+
+    <ImageView
+        android:layout_width="wrap_content"
+        android:layout_height="wrap_content"
+        android:layout_gravity="center"
+        android:layout_marginTop="30dp"
+        android:scaleType="fitXY"
+        android:src="@drawable/votek_logo" />
+
+
+    <LinearLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent"
+        android:layout_gravity="center"
+        android:layout_margin="12dp"
+        android:gravity="center"
+        android:orientation="vertical">
+
+
+        <com.testapp.audiosignal.widget.WaveformView
+
+            android:id="@+id/waveformView"
+            android:layout_width="wrap_content"
+            android:layout_height="@dimen/waveform_height"
+            android:layout_marginTop="10dp"
+            android:layout_marginBottom="10dp" />
+
+        <FrameLayout
+            android:layout_width="match_parent"
+            android:layout_height="wrap_content"
+            android:layout_gravity="center">
+
+            <ImageButton
+                android:id="@+id/btnPlay"
+                android:layout_width="@dimen/bottom_pnl_small_btn_size"
+                android:layout_height="@dimen/bottom_pnl_small_btn_size"
+                android:layout_gravity="bottom|center"
+                android:adjustViewBounds="true"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/ic_play"
+                android:visibility="visible" />
+
+            <ImageButton
+                android:id="@+id/btnStop"
+                android:layout_width="@dimen/bottom_pnl_small_btn_size"
+                android:layout_height="@dimen/bottom_pnl_small_btn_size"
+                android:layout_gravity="bottom|center"
+                android:layout_marginStart="27dp"
+                android:adjustViewBounds="true"
+                android:background="?android:selectableItemBackgroundBorderless"
+                android:contentDescription="@null"
+                android:scaleType="center"
+                android:src="@drawable/ic_stop"
+                android:visibility="gone" />
+
+
+        </FrameLayout>
+
+
+        <TextView
+            android:id="@+id/textV_Paragraph"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_margin="5dp"
+            android:justificationMode="inter_word"
+            android:text="Hello World!"
+            android:textColor="@color/white"
+            android:textSize="20sp" />
+
+        <TextView
+            android:id="@+id/textV_Time"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:text="00.00"
+            android:textColor="@color/md_yellow_A700"
+            android:textSize="22sp"
+            android:textStyle="bold"
+
+            />
+        <Button
+            android:id="@+id/btn_downLink"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            style="@style/Widget.AppCompat.ActionBar.Solid"
+            android:background="@color/md_yellow_A700"
+            android:layout_marginTop="10dp"
+            android:padding="10dp"
+            android:text="Download Audio File"
+            android:textStyle="bold"
+            />
+
+
+    </LinearLayout>
+
+
+</LinearLayout>
+
