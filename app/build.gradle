@@ -1,21 +1,48 @@
 apply plugin: 'com.android.application'
 
 
+ext.versionMajor = 1
+ext.versionMinor = 0
+ext.versionPatch = 0
+ext.versionClassifier = null
+ext.isSnapshot = false
+
 android {
-    compileSdkVersion 29
+    compileSdkVersion 30
     buildToolsVersion "29.0.2"
     defaultConfig {
-        applicationId "com.testapp.audiosignal"
+        applicationId "com.mohmd_bh.magicyvoice"
         minSdkVersion 21
-        targetSdkVersion 29
-        versionCode 1
-        versionName "1.0"
+        targetSdkVersion 30
+        versionCode generateVersionCode() // 010203
+        versionName generateVersionName() // 1.2.3-SNAPSHOT
         testInstrumentationRunner "androidx.test.runner.AndroidJUnitRunner"
     }
+
+    ext{
+        APP_NAME = "Magicy-Voice"
+        APP_NAME_DEV = "Magicy-Voice-Dev"
+    }
+
+
     buildTypes {
+        debug{
+            android.applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    def appName = APP_NAME_DEV
+                    outputFileName = appName+"-${output.baseName}-${variant.versionName}.apk"
+                }
+            }
+        }
         release {
-            minifyEnabled false
+            minifyEnabled true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            android.applicationVariants.all { variant ->
+                variant.outputs.all { output ->
+                    def appName = APP_NAME
+                    outputFileName = appName+"-${output.baseName}-${variant.versionName}.apk"
+                }
+            }
         }
     }
     compileOptions {
@@ -23,6 +50,23 @@ android {
         targetCompatibility = 1.7
     }
 }
+
+private Integer generateVersionCode() {
+    return ext.versionMajor * 10000 + ext.versionMinor * 100 + ext.versionPatch
+}
+
+private String generateVersionName() {
+    String versionName = "${ext.versionMajor}.${ext.versionMinor}.${ext.versionPatch}"
+    if (ext.versionClassifier == null && ext.isSnapshot) {
+        ext.versionClassifier = "SNAPSHOT"
+    }
+
+    if (ext.versionClassifier != null) {
+        versionName += "-" + ext.versionClassifier
+    }
+    return versionName;
+}
+
 ext.versions = [
         // Android
         targetSdkVersion: 28,

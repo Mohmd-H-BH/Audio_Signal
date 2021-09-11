@@ -1,7 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <manifest xmlns:android="http://schemas.android.com/apk/res/android"
     xmlns:tools="http://schemas.android.com/tools"
-    package="com.testapp.audiosignal">
+    package="com.mohmd_bh.magicyvoice">
 
     <uses-permission android:name="android.permission.WRITE_EXTERNAL_STORAGE" />
     <uses-permission android:name="android.permission.READ_EXTERNAL_STORAGE" /> <!-- <uses-permission android:name="android.permission.READ_PHONE_STATE" /> -->
@@ -9,7 +9,7 @@
     <uses-permission android:name="android.permission.RECORD_AUDIO" />
 
     <application
-        android:name=".ARApplication"
+        android:name="com.mohmd_bh.magicyvoice.ARApplication"
         android:allowBackup="true"
         android:hardwareAccelerated="true"
         android:icon="@mipmap/ic_launcher"
@@ -18,10 +18,10 @@
         android:supportsRtl="true"
         android:theme="@style/AppTheme"
         tools:ignore="GoogleAppIndexingWarning">
-        <activity android:name=".ui.test">
+        <activity android:name="com.mohmd_bh.magicyvoice.ui.test">
 
         </activity>
-        <activity android:name=".ui.MainActivity">
+        <activity android:name="com.mohmd_bh.magicyvoice.ui.MainActivity">
             <intent-filter>
                 <action android:name="android.intent.action.MAIN" />
 
