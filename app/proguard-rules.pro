@@ -19,3 +19,5 @@
 # If you keep the line number information, uncomment this to
 # hide the original source file name.
 #-renamesourcefileattribute SourceFile
+#-keep class com.mohmd_bh.mandl.Model.* {*; }
+-keep class com.mohmd_bh.magicyvoice.Model.* {*; }

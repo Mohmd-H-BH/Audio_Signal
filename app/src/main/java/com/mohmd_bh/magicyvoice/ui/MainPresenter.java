@@ -479,6 +479,7 @@ public class MainPresenter implements MainContract.UserActionListener {
             dpPerSecond = ARApplication.getDpPerSecond((float) duration / 1000000f);
 
             //if(isSetSoundFile_String)
+            if(view != null)
             view.showWaveForm(record.getAmps(), duration);
             //else
             Timber.tag("isSetSoundFile_String: ").d("is FALSE");

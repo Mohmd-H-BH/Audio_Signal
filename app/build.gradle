@@ -3,11 +3,19 @@ apply plugin: 'com.android.application'
 
 ext.versionMajor = 1
 ext.versionMinor = 0
-ext.versionPatch = 0
+ext.versionPatch = 1
 ext.versionClassifier = null
 ext.isSnapshot = false
 
 android {
+    signingConfigs {
+        'magicy-voice' {
+            storeFile file('D:\\Android-Projects\\KeyStores\\key\\11-09-2021\\Magicy Voice\\magicy-voice-12-09-21.jks')
+            storePassword '5869123.MgcVic'
+            keyAlias 'mgcvic_key'
+            keyPassword '5869123.MgcVic_Key'
+        }
+    }
     compileSdkVersion 30
     buildToolsVersion "29.0.2"
     defaultConfig {
@@ -35,8 +43,11 @@ android {
             }
         }
         release {
+            debuggable false
             minifyEnabled true
+            shrinkResources true
             proguardFiles getDefaultProguardFile('proguard-android-optimize.txt'), 'proguard-rules.pro'
+            signingConfig signingConfigs.'magicy-voice'
             android.applicationVariants.all { variant ->
                 variant.outputs.all { output ->
                     def appName = APP_NAME
